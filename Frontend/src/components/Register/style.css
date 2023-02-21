@@ -1,0 +1,52 @@
+
+.contanir{
+    display: grid;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 100px;
+}
+.header{
+ text-align: center;
+ color: white;
+}
+.input-Register{
+    display: grid;
+    gap: 0px;
+    width: 350px;
+    
+}
+.inp{
+    height: 40px;
+    border: 0px;
+    background-color: rgb(95, 10, 175);
+    border-bottom: 2px solid white;
+}
+
+.button-Register{
+    width: 310px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0px;
+    background-color: rgb(221, 164, 19);
+    color: white;
+}
+.footer{
+    text-align: center;
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+}
+.go-login{
+    cursor: pointer;
+    color:aquamarine;
+    transition: .5s;
+}
+
+.go-login:hover{
+    color: rgb(221, 164, 19);
+}
+
+input::placeholder-shown { 
+    color: white;
+    opacity: 1;
+}

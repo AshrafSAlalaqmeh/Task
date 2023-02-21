@@ -1,0 +1,43 @@
+.contanir-add-Task {
+  display: grid;
+  justify-content: center;
+  gap: 30px;
+}
+
+.typesomething {
+  width: 300px;
+}
+.input-Date {
+  border-style: dotted;
+  border-radius: 7px;
+  height: 40px;
+}
+.inputs-When {
+  display: flex;
+  column-gap: 35px;
+}
+.Description {
+  display: grid;
+}
+.button-tasks {
+  margin-top: 80px;
+  width: 310px;
+  height: 40px;
+  border-radius: 20px;
+  border: 0px;
+  background-color: rgb(221, 164, 19);
+  color: white;
+  font-weight: bold;
+}
+
+.back-in-complete {
+  position: relative;
+  left: -400px;
+  margin-top: 50px;
+  width: 100px;
+  border-radius: 20px;
+  border: 0px;
+  background-color: rgb(221, 164, 19);
+  color: white;
+  font-weight: bold;
+}

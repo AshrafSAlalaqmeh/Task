@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(95, 10, 175);
+}
+
+.contanir-login {
+  display: grid;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.input-login {
+  display: grid;
+  gap: 0px;
+  width: 350px;
+}

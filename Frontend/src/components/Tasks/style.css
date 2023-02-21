@@ -1,0 +1,112 @@
+.contanit-task {
+  display: grid;
+  justify-content: center;
+  /* position: relative; */
+}
+.search {
+  position: relative;
+  width: 200px;
+}
+.navbar {
+  display: flex;
+  position: relative;
+  left: 100px;
+  gap: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.welcomeName {
+  color: white;
+  position: relative;
+  right: 300px;
+}
+.card {
+  width: 350px;
+  display: grid;
+  gap: 0px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.cards {
+  margin-bottom: 50px;
+}
+.title-When {
+  display: flex;
+  column-gap: 100px;
+}
+.time-history {
+  display: flex;
+  column-gap: 10px;
+  color: gray;
+}
+.tilte {
+  width: 60px;
+  color: rgb(95, 10, 175);
+  font-weight: bold;
+}
+.desc {
+  width: 150px;
+  color: gray;
+}
+.button-Task {
+  display: flex;
+  column-gap: 150px;
+}
+.edit-delete {
+  display: flex;
+  column-gap: 7px;
+}
+.button-edit {
+  border-radius: 50px;
+  background-color: rgb(75, 73, 77);
+  border: 0px;
+  transition: 0.5s;
+}
+.button-edit:hover {
+  background-color: rgb(121, 119, 122);
+}
+
+.button-delete {
+  border-radius: 50px;
+  background-color: rgb(95, 10, 175);
+  border: 0px;
+  transition: 0.5s;
+}
+
+.button-delete:hover {
+  background-color: rgb(126, 33, 214);
+}
+
+.button-favorite {
+  width: 130px;
+  margin-left:-18px ;
+  border-radius: 20px;
+  border: 0px;
+  background-color: rgb(221, 164, 19);
+  color: white;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.button-favorite:hover {
+  background-color: rgb(153, 113, 13);
+}
+svg {
+  color: white;
+}
+.button-addTask {
+  color: white;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: rgb(231, 60, 140);
+  border: 0px;
+  margin-left: 300px;
+  position: fixed;
+  top: 450px;
+}
+.history{
+  margin-left: -20px;
+  width: 100px;
+}

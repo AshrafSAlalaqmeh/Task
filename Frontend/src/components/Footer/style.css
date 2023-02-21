@@ -1,0 +1,21 @@
+.contanir-footer {
+  background-color: white;
+  border-style: outset;
+  /* width: 386%; */
+  width: 100%;
+  position: fixed;
+  /* right: 500px; */
+  top: 93%;
+  display: flex;
+  justify-content: center;
+  column-gap: 100px;
+}
+
+.task-footer {
+  font-weight: bold;
+  cursor: pointer;
+}
+.complete-footer {
+  font-weight: bold;
+  cursor: pointer;
+}

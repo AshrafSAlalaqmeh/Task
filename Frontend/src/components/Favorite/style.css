@@ -1,0 +1,37 @@
+.contanir-favorite {
+  display: grid;
+  justify-content: center;
+}
+.favorite{
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.button-back {
+  margin-left: 450px;
+  margin-top: 100px;
+  width: 200px;
+  border-radius: 20px;
+  border: 0px;
+  background-color: rgb(221, 164, 19);
+  color: white;
+  font-weight: bold;
+}
+.favorite-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+.butt-delete{
+  border: 0px;
+  border-radius: 10px;
+  background-color: rgb(95, 10, 175);
+  color: white;
+  width: 100px;
+  transition: .7s;
+
+}
+.butt-delete:hover{
+  background-color: rgba(95, 10, 175, 0.534);
+}
