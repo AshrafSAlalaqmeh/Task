@@ -91,14 +91,13 @@ Now app ready to use
 
 
 
-
+<hr>
 - You can click on the **Add Favorite** To put in Favorite list
 
 <img height=200px width=300px src="./frontend/public/favorite.png" alt="favorite">
 
-- When click on the **Add Favorite** The Favorite list Will veiw
+- When click on the **Add Favorite** The Favorite list Will veiw for each user, user can add any item to it and remove it.
 
--and can delete item in the favorite list
 <img height=200px width=300px src="./frontend/public/favorite List.png" alt="favorite List">
 
 
